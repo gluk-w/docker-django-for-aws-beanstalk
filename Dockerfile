@@ -19,7 +19,7 @@ USER ubuntu
 # To make package installation from private repositories work
 RUN mkdir ~/.ssh
 RUN ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
-RUN ssh-keyscan -t rsa bitbucket.com >> ~/.ssh/known_hosts
+RUN ssh-keyscan -t rsa bitbucket.org >> ~/.ssh/known_hosts
 
 
 
